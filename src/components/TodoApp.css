@@ -29,8 +29,34 @@ body {
     background-color: #03dac5;
     border: none;
     border-radius: 8px;
-    color: #333;
+    color: #ffffff;
     padding: 10px 20px;
+    font-weight: bold;
+
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    background-color: #fafafa;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.delete-button {
+    background-color: #cf6679;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
 }
 
 .empty{

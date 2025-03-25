@@ -34,8 +34,17 @@ const TodoApp = () => {
           />
           <button type="submit" className="add-button">Adicionar</button>
         </form>
-
+        {/* lista */}
         {todos.length === 0 && <p className="empty">Não há tarefas</p>}
+
+        <ul className="todo-list">
+            {todos.map((todo) => (
+                <li key={todo.id} className="todo-item">
+                    {todo.text}
+                    <button className="delete-button">Excluir</button>
+                </li>
+            ))}
+        </ul>
       </div>
     </>
   );
