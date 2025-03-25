@@ -1,0 +1,43 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.app-container {
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}   
+
+.add-button {
+    background-color: #03dac5;
+    border: none;
+    border-radius: 8px;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.empty{
+    text-align: center;
+}
+
+.title {
+    color: #6200ee;
+    text-align: center;
+}
