@@ -8,6 +8,17 @@ const TodoApp = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (inputValue.trim() !== "") {
+        const newTodo = {
+            id: Date.now(),
+            text: inputValue
+        }
+
+        setTodos((prevTodos) => [...prevTodos, newTodo]);
+
+        setInputValue("")
+    }
   };
   return (
     <>
